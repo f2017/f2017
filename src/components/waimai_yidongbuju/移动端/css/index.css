@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+header{
+    /* position: relative; */
+    background: #0092FF;
+    /*position: relative;*/
+}
+.dizhi span{
+    color: white;
+    font-size: 18px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.sousuo{
+    background: white;
+    border-radius: 25px;
+    width: 350px;
+    height: 35px;
+    margin-left: 11px;
+    margin-top: 10px;
+    text-align: center;
+}
+.tuijian{
+    display: flex;
+    justify-content: space-between;
+}
+.tuijian li{
+    font-size: 8px;
+    padding: 15px;
+    color: white;
+}
+/*头部结束*/
+/*列表开始*/
+.liebiao{
+    width: 100%;
+    /*height: 100%;*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 45px;
+    /*justify-content: space-around;*/
+}
+.liebiao li{
+    width: 25%;
+    height: 10%;
+}
+.liebiao li img{
+    display: block;
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+}
+.wenzi{
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+/*列表结束*/
+
+/*推荐开始*/
+.tuijian{
+    font-size: 15px;
+    margin-left: 15px;
+}
+.biao{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.tupian{
+    width: 20%;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.xiangxi{
+    width: 80%;
+}
+.canting{
+    width: 100%;
+    height: 18px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.ping{
+     width: 100%;
+     height: 14px;
+     /* float: left; */
+     font-size: 10px;
+     margin-left: 25px;
+    margin-top:5px;
+ }
+
+.xing{
+    font-family: iconfont;
+    font-size: 10px;
+    color: #FFAA0C;
+    
+}
+.fen{
+    color: #FF6000;
+    font-size: 10px;
+}
+.shumu{
+    /* float: left; */
+    font-size: 10px;
+}
+.pei{
+    color: #6C6C6C;
+    font-size: 12px;
+    margin-left: 25px;
+    /* margin-top: 5px; */
+}
+.fei{
+    color: #6C6C6C;
+    font-size: 12px;
+    margin-left: 25px;
+    /* margin-top: 5px; */
+}
+.feiyong{
+    font-size: 0px;
+}
+.lucheng{
+    color: #6C6C6C;
+    font-size: 12px;
+    margin-left:45px;
+    /* margin-top: 5px; */
+}
+.jian{
+    color: red;
+    font-size: 12px;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+.youhui{
+    color: #6C6C6C;
+    font-size: 12px;
+    margin-left: 5px;
+}
+/* .fan{
+    font-size: 15px;
+} */
+.xin{
+    color: red;
+    font-size: 12px;
+    margin-left: 25px;
+}
+.new{
+    font-size: 15px;
+}
+.yonghu{
+    color: #6C6C6C;
+    font-size: 12px;
+    margin-left: 5px;
+}
+/* 推荐结束 */
+/* 底部开始 */
+
+.dibu{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: white;
+    /* border-top:1px solid #000; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.dibu li{
+    margin-top: 10px;
+}
+.cai{
+    font-family: iconfont;
+}
+.wai{
+    font-size: 10px;
+    text-align: center;
+}
+.faxian{
+    font-family: iconfont;
+}
+.ding{
+    font-family: iconfont;
+}
+.wo{
+    font-family: iconfont;
+}

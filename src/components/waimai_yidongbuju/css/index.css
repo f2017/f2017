@@ -1,0 +1,93 @@
+*{
+    padding:0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*头*/
+header{
+    position: relative;
+    width: 100%;
+    height:0.89rem;
+    background: #FFD9B0;
+    display: flex;
+}
+.arrow{
+    width: 0.87rem;
+    height: 0.87rem;
+    flex-direction: row;
+}
+.arrow_left{
+    font-size: 0.55rem;
+    color: #fff;
+    font-family: "宋体";
+    font-weight: 800;
+    text-align: center;
+    line-height: 0.87rem;
+}
+.my{
+    position: absolute;
+    top:0;
+    left:50%;
+    font-weight: 300;
+    font-size: 0.5rem;
+    line-height: 0.87rem;
+    color: #fff;
+    transform: translateX(-50%);
+    font-family: "新宋体";
+}
+/*账户信息*/
+.line{
+    width: 100%;
+    height: 1px;
+    background: #FFD9B0;
+    opacity: 1;
+}
+.profile{
+    padding: 0.6rem 0.4rem;
+    display: flex;
+    background: #FFD9B0;
+}
+.profile_img{
+    width: 1.6rem;
+    height: 1.6rem;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    border-radius: 50%;
+    background: #fff;
+}
+.profile_center{
+    margin-left: 0.36rem;
+}
+.num{
+    font-size: 0.47rem;
+    margin-bottom: 0.36rem;
+    font-weight: 400;
+    color: #fff;
+}
+.pho{
+    font-size: 0.31rem;
+    color: #fff;
+}
+.arrow_right{
+    font-family: "宋体";
+    color: #fff;
+    font-size: 0.4rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
